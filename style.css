@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    width: fit-content;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: #fff;
+    text-shadow: 1px 5px 5px rgba(80, 80, 80, 0.3);
+    
+    z-index: -1;
+}
+
+main section {
+    width: 50vw;
+    height: 80vh;
+    margin: 10vh auto;
+    padding-top: 1px;
+    box-shadow: 1px 1px 20px rgba(39, 39, 39, 0.2);
+    background-color: #fff;
+    position: relative;
+    bottom: 80px;
+}
+
+main section h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin-left: 40px;
+    background-color: #fff;
+    position: relative;
+    top: 15px;
+    width: fit-content;
+    padding: 0 3px;
+}
+
+main section .players {
+    width: 90%;
+    height: 80px;
+    border: 0.5px solid rgba(80, 80, 80, 0.3);
+    margin: 5px 29px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+main section .game {
+    width: 612px;
+    height: 324px;
+    border: 0.5px solid rgba(80, 80, 80, 0.3);
+    margin: 5px 29px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game button {
+    width: 204px;
+    height: 108px;
+    outline: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    /* color: #fff; */
+}
+
+main section .score {
+    width: calc(90% + 2px);
+    height: 50px;
+    border-radius: 0 0px 10px 10px;
+    margin: 0px 29px 0;
+    position: relative;
+    bottom: 13px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(161, 161, 161);
+}
+
+main section #message-div {
+    height: 70px;
+    width: calc(90% + 2px);
+    margin: 0px 29px 0;
+}
+
+main section #message {
+    /* width: fit-content; */
+    text-align: center;
+    margin: 0px 29px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+main section #start {
+    width: 90px;
+    height: 40px;
+    /* margin-top: 20px; */
+    background-color: rgb(45, 109, 45);
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    margin: auto auto;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: 0;
+}
+
+#ps1, #ps2 {
+    font-size: 50px;
+    display: none;
+}
+
+main section .start:hover {
+    background-color: darkgreen;
+}
+
+main section .p1 {
+    width: 70px;
+    height: 70px;
+    background-color: saddlebrown;
+    border-radius: 0px 0 0 10px;
+    display: none;
+}
+
+main section .p2 {
+    width: 70px;
+    height: 70px;
+    background-color: saddlebrown;
+    border-radius: 0px 0 10px 0px;
+    display: none;
+}
+
+main section div input {
+    outline: 0;
+    border: 0;
+    background-color: rgb(228, 228, 228);
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 25px 0px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main section div input::placeholder {
+    color: rgb(44, 44, 44);
+    font-size: 15px;
+    text-align: center;
+}
